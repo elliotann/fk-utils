@@ -32,7 +32,7 @@ module.exports = {
 
     output: {
         path: path.join(__dirname, "/dist/"),
-        library: "MKUtils",
+        library: "FKUtils",
         libraryTarget: "umd"
     },
 

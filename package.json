@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "compile": "babel -d lib/ src/",
-    "build": "webpack --output-filename mk-utils.js",
+    "build": "webpack --output-filename fk-utils.js",
     "build-min": "cross-env NODE_ENV=production COMPRESS=1 webpack --output-filename fk-utils.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
